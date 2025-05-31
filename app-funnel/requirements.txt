@@ -5,3 +5,4 @@ joblib
 nltk
 unidecode
 nltk
+spacy
