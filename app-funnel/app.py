@@ -3,11 +3,11 @@ import joblib
 from src.text_preprocessor import TextPreprocessor
 
 # Cargar modelos y objetos
-brand_model = joblib.load("../models/brand_classifier.pkl")
-funnel_model = joblib.load("../models/funnel_classifier.pkl")
-vectorizer = joblib.load("../models/vectorizer.pkl")
-encoder_brand = joblib.load("../models/encoder_brand.pkl")
-encoder_funnel = joblib.load("../models/encoder_funnel.pkl")
+brand_model = joblib.load("models/brand_classifier.pkl")
+funnel_model = joblib.load("models/funnel_classifier.pkl")
+vectorizer = joblib.load("models/vectorizer.pkl")
+encoder_brand = joblib.load("models/encoder_brand.pkl")
+encoder_funnel = joblib.load("models/encoder_funnel.pkl")
 
 
 preprocessor = TextPreprocessor()
